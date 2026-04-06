@@ -1,4 +1,4 @@
-# Football Match Predictor — API REST con FastAPI
+# PREDICCIÓN RESULTADOS PARTIDOS DE FUTBOL PINCIPALES LIGAS EUROPEAS — API REST con FastAPI
 
 ## Descripcion
 
@@ -65,7 +65,7 @@ Los partidos con menos de 3 encuentros previos registrados para alguno de los do
 
 ```
 .
-├── FastAPI_Ligas2025_REST.ipynb   # Notebook principal (Google Colab)
+├── API_PREDICCIÓN_PARTIDOS_LIGAS_EUROPEAS.ipynb   # Notebook principal (Google Colab)
 ├── todas_las_ligas_2025.csv       # Dataset de partidos
 ├── README.md                      # Este archivo
 ```
@@ -106,7 +106,7 @@ Sube el archivo `FastAPI_Ligas2025_REST.ipynb` a Google Colab desde [colab.resea
 
 ### 2. Subir el dataset
 
-En el panel lateral de Colab (icono de carpeta), sube el archivo `todas_las_ligas_2025.csv` a la sesion. Tambien puedes hacerlo desde una celda:
+En el panel lateral de Colab (icono de carpeta), sube el archivo `todas_las_ligas_2025.csv` a la sesion que se peude encontrar dentro de la estructura de este repositorio. Tambien puedes hacerlo desde una celda:
 
 ```python
 from google.colab import files
